@@ -1,0 +1,246 @@
+.container{
+    background: #2F1893;
+    padding: 40px 0;
+}
+.header_menu h2{
+font-size: 24px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: -0.2926828861236572px;
+text-align: center;
+color: white;
+}
+.header_menu ul li{
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+color: white;
+padding-left: 25px;
+}
+li button{
+    width: 120px;
+height: 40px;
+border-radius: 100px;
+background: #E93A7D;
+border: none;
+font-size: 18px;
+font-weight: 500;
+color: white;
+}
+.text_box h2{
+    font-family: DM Sans;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: #fff;
+}
+.text_box h5{
+font-family: DM Sans;
+font-size: 22px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+color: #fff;
+padding: 40px 0;
+width: 363px;
+}
+.two_box{
+    padding: 50px 0;
+}
+.text_box button{
+    Width:157px;
+    height: 50px;
+    border-radius: 100px;
+    border-radius: 100px;
+background: var(--action-third, #E93A7D);
+border: none;
+color: var(--colors-white, #FFF);
+text-align: center;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+}
+.sign_up{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 0;
+}
+.sign_up h3{
+    color: var(--colors-heading, #1E0E62);
+text-align: center;
+font-family: DM Sans;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: -0.4px;
+}
+.sign_up form input{
+    width: 330px;
+height: 50px;
+border-radius: 100px;
+border: 2px solid var(--colors-grey, #EBEAED);
+margin-bottom: 20px;
+padding: 20px 16px;
+box-sizing: border-box;
+}
+.sign_up form{
+    width: 330px;
+    margin: 40px auto 0px auto;
+}
+.check p{
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.check svg{
+    margin-right: 10px;
+}
+.btn_sign{
+    width: 330px;
+height: 50px;
+border-radius: 100px;
+background: var(--action-secondary, #482BE7);
+color: var(--colors-white, #FFF);
+text-align: center;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+border: none;
+margin-top: 27px;
+}
+.svg_or{
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+text-align: center;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.9;
+margin: 17px 0;
+}
+.svg_or svg{
+    margin-bottom: 2px;
+}
+.login_btn{
+    width: 330px;
+    height: 50px;
+    border-radius: 100px;
+background: var(--socials-twitter, #1DA1F2);
+border: none;
+color: var(--colors-white, #FFF);
+text-align: center;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+margin-bottom: 30px;
+}
+article .para-acc{
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+text-align: center;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+margin-right: 10px;
+}
+article .para-sign{
+    color: var(--action-primary, #25DAC5);
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+}
+article:hover{
+    cursor: pointer;
+}
+@media screen and (max-width:769px) {
+    .text_box{
+        width: 48%;
+    }
+    .sign_up{
+        width: 48%;
+    }
+    .text_box h2 {
+        font-size: 50px;
+    }
+    .text_box h5 {
+        font-size: 20px;
+    }
+    .header_menu{
+        box-sizing: border-box;
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width:730px) and (min-width:320px){
+    .two_box{
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 50px 20px;
+    }
+    .header_menu{
+        box-sizing: border-box;
+    padding: 0 20px;
+    }
+    .header_menu h2{
+        margin-left: 10px !important;
+    }
+    .text_box{
+        width: 95%;
+    }
+    .text_box h2 {
+        font-size: 40px;
+    }
+    .text_box h5 {
+        font-size: 16px;
+        width: 100%;
+    }
+    .sign_up form{
+        width: 100%;
+    }
+    .sign_up{
+        width: 95%;
+        margin-top: 40px;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .active{
+        display: none;
+    }
+    .svg_or{
+display: none;
+    }
+    form{
+        align-items: center !important;
+    }
+    .sign_up form input{
+        width: 100%;
+    }
+    .btn_sign{
+        width: 100%;
+    }
+    .login_btn{
+        width: 100%;
+        margin-top: 30px;
+    }
+    article p{
+        font-size: 14px !important;
+    }
+}
